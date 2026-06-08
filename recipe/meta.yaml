@@ -1,5 +1,5 @@
 {% set name = "uplot-python" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/uplot_python-{{ version }}.tar.gz
-  sha256: a1e771cc6adddf468db59c66d31aaac3d6bd7dcc3e47588f097cc2b416017a02
+  sha256: baa996be76451fdebfa17128db1d4ef87b523e951a1e8d2bd3e8413e517cf6e0
 
 build:
   noarch: python
